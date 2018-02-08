@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+img{
+  width: 100%;
+}
+.div-1{
+  border: 2px solid#DC143C;
+  background-color: #012;
+  margin-bottom:1%;
+  padding:3em;
+
+}
+.div-2{
+  border: 2px solid#DC143C;
+  padding: 3em;
+  background-color: #012;
+  margin-bottom:1%;
+  
+}
+#collage-photo{
+  margin: 0;
+}
+.photo-retro{
+  color:#2E64FE;
+  padding: 4%;
+}
+.icons{
+  color:#2E64FE;
+
+}

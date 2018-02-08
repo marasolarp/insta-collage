@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+	<!--pantalla sesion de inicio-->
+	<div class="row">
+		
+	</div>
+
+
+
+
+
+
+	<!--pantalla collage -->
+    <header>
+      	<div class="container">
+	        <div class="row">
+	        	<div class="col-sm-3 col-xs-3 ">
+	        		<h4><i class=" icons fa fa-camera-retro"></i> PHOTO-BOOTH</h4>
+
+	        	</div>
+	          	<div class="col-sm-6 col-xs-6">
+	          		<h4 class="text-center">12:55</h4>
+	          	</div>
+	          	<div class="col-sm-3 col-xs-3"></div>
+					<i class="icons fa fa-battery-quarter"></i>
+	       		 </div> 
+	    </div>
+	</header>      
+	<section id="collage-photo">
+		<div class="container">
+		    <div class="row">
+		        <div class="col-sm-4 col-xs-4 div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+		        <div class="col-sm-4 col-xs-4 div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+		        <div class="col-xs-4 col-sm-4 div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+	        </div>
+	        <div class="row">
+	          <div class=" col-sm-3 col-xs-3 div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+	          <div class="col-sm-3 col-xs-3  div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+	          <div class="col-sm-3 col-xs-3  div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+	          <div class="col-sm-3 col-xs-3  div-2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+	        </div>
+    	</div>
+   	</section> 	    
+	<section>
+		<div class="container">
+	        <!--division -->
+	        <div class="row">
+	          <div class="col-sm-12 col-xs-12 photo-retro text-center">
+	            <p><i class="fa fa-camera-retro"></i> PHOTO-BOOTH</p>
+	          </div>
+	        </div>
+        </div>
+    </section>    
+	<section class="container">
+        <!--segundo contenedor donde se arrastran las imágenes -->
+        <div class="row">
+          <div class="col-sm-3 col-xs-3 col-lg div-1">
+            <img src="assets/img/img1.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img1">
+          </div>
+          <div class="col-sm-3 col-xs-3 div-1">
+            <img src="assets/img/img2.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img2">
+          </div>
+          <div class="col-sm-3 col-xs-3 div-1">
+            <img src="assets/img/img3.jpg" alt="" draggable="true" 
+            ondragstart="drag(event)" id="img3">
+          </div>
+          <div class="col-sm-3 col-xs-3  div-1">
+            <img src="assets/img/img4.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-xs-4  div-1">
+            <img src="assets/img/img4.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img5">
+          </div>
+          <div class="col-sm-4 col-xs-4 div-1">
+            <img src="assets/img/img6.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img6">
+          </div>
+          <div class="col-sm-4 col-xs-4 div-1">
+            <img src="assets/img/img7.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img7">
+          </div>
+          <!--div class="col-sm-3 col-xs-3 div-1">
+            <img src="assets/img/img8.jpg" alt="" draggable="true" ondragstart="drag(event)" id="img8">
+          </div-->
+        </div>
+    </section>
+        
+ 
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
