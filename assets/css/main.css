@@ -1,6 +1,3 @@
-body{
-  background-color: black;
-}
 img{
   width: 100%;
 }
@@ -18,8 +15,12 @@ img{
   margin-bottom:1%;
   
 }
-#collage-photo{
+#collage-photo, .headding, .separation{
   margin: 0;
+  background-color: black;
+}
+.images{
+  background-color: #000;
 }
 .photo-retro{
   color:#2E64FE;
@@ -27,5 +28,10 @@ img{
 }
 .icons{
   color:#2E64FE;
-
 }
+/*estilos pag login*/
+#dropdownMenu1{
+  margin-top: 2em;
+  background-color: transparent;
+}
+
